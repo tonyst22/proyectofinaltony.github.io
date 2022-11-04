@@ -1,0 +1,115 @@
+
+body{
+
+ text-align: center;
+ align-items: center;
+}
+.code-img{
+  width:40px;
+   height:40px;
+   transition:1s;
+   cursor:pointer;
+}
+.code-img:hover{
+-webkit-transform:rotateY(180deg) ;
+-webkit-transform-style:preserve-3d ;
+transform:rotateY(180 deg) ;
+transform-style: preserve-3d;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.nav,ul{
+  background-color: black;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+
+}
+li{
+  
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  list-style: none;
+  color: white;
+  cursor:pointer;
+}
+li:hover{
+  border-bottom: solid 5px #7f42c4;
+  background-color: rgba(250, 250,250, 0.2);
+} 
+.calculadora{
+    display:block;
+    margin:0 auto;
+    margin-top: 30px;
+    padding:20px;
+    background: rgb(33,101,136);
+background: linear-gradient(130deg, rgba(33,101,136,1) 30%, rgba(93,93,93,1) 100%);
+    width: 350px;
+    height:500px;
+    border-radius: 25px;
+    
+  }
+  .calculadora td button{
+    display:block;
+    width:70px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .calculadora td button:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+  }
+  
+  #resultado{
+    display:block;
+    box-sizing:border-box;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-color:#bbbbbb;
+    border-radius: 10px;    
+    overflow-x: scroll;
+  }
+
+
+  .foot-img{
+    width:100px;
+    height:100px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .foot-img:hover{
+    -webkit-transform:rotateY(180deg) ;
+    -webkit-transform-style:preserve-3d ;
+    transform:rotateY(180 deg) ;
+    transform-style: preserve-3d;
+  
+  }
+  
+  .pie-pagina{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    background-color:black;
+    place-content: center center;
+    color: white;
+    box-sizing: border-box;
+  }
+  .pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+  } 

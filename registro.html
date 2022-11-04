@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="registro.css">
+  <link rel="shortcut icon" href="img/htmlcode.png"  />
+</head>
+
+<body>
+
+   <!--FORMULARIO---->
+   <form class="form" action="inicio/inicio.html" method="post">
+        
+    <!--TITULO------------------------>
+    <h1 class="titulo">Registrarse</h1>
+    
+    <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
+    <input class="cajas" type="text" name="nombre" required placeholder="Nombre" required maxlength="30" >
+    <input class="cajas" type="text" name="apellido" required placeholder="Apellido" required maxlength="30">
+    <input class="cajas" type="email" name="email" required placeholder="Email" required maxlength="30">
+    <input class="cajas" type="password" name="password" required placeholder="Password" minlength="3" required maxlength="30">
+    
+    <!--TERMINOS-Y-CONDICIONES---------------------------------------------------------------------------------->
+    <p class="termino1"><input type="checkbox" required>  Estoy de acuerdo con <a class="termino2" href="terminos y condiciones.html">Terminos y Condiciones</a></p>
+    
+    <!--BOTON-DE-REGISTRARSE-------------------------->
+    <input type="submit" class="btn" value="REGISTRAR">
+    
+    <!--YA-TENGO-CUENTA----------------------------------------------------------->
+    <p class="tengo-cuenta"><a href="iniciosesion.html" class="tengo-cuenta">Ya tengo cuenta</a></p>
+    
+</form>
+
+
+</body>
+
+</html>
